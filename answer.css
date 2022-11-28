@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#topnav,.dropdown-menu{
+    background-color: #cf0ec6;
+}
+a,.dropdown-item,#navbarDropdownMenuLink{
+    color:wheat;
+    background-color: #cf0ec6;
+}
+a:hover{
+    color:wheat;
+}
+.navbar-text{
+    color:wheat;
+}
+#navbarDropdownMenuLink:hover{
+    color:black;
+    background-color: wheat;
+}
+.dropdown-item:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+}
+#addans{
+    background-color: #cf0ec6;
+    border-radius: 1rem;
+    color: wheat;
+}
+#addans:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+ }
+ h2,h1{
+    text-align: center;
+    color: #cf0ec6;
+    font-family: cursive;
+}
+#maincontainer{
+    margin-top: 40px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+}
+.answers{
+    height:100%;
+    width:100%;
+    text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     width: 90%;
+}
+#inputGroup-sizing-default{
+    background-color: #cf0ec6;
+    color: wheat;
+}

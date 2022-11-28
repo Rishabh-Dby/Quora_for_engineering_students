@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#signupform{
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Licorice', cursive;
+    font-weight: 1000;
+    font-size: 93px;
+    color:#cf0ec6;
+}
+.btn{
+    background-color: #cf0ec6;
+    color: azure;
+    border-color: transparent;
+}
+.btn:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+ }
+ p{
+     text-align: center;
+ }
+ a{
+     color:#cf0ec6;
+     text-decoration: unset;
+ }
+ a:hover{
+     color:blue;
+     text-decoration: underline;
+ }

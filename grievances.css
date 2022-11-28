@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#signupform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Licorice', cursive;
+    font-weight: 1000;
+    font-size: 93px;
+    color:#cf0ec6;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Licorice',;
+    font-weight: 100;
+    font-size: 60px;
+    color:#cf0ec6;
+}
+.signupsubmit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    background-color: #cf0ec6;
+    color: azure;
+    border-color: transparent;
+}
+  #description{
+      background-color: #cf0ec6;
+      color: wheat;
+      border-radius: 0.5em;
+  }
+ #button-feedback{
+     border-radius: 2rem;
+ }
+ #button-feedback:hover{
+    background-color: wheat;
+    color: black;
+ }
+ #subject{
+    background-color: #cf0ec6;
+    color: wheat;
+    border-radius: 0.5em;
+    width: 110px;
+    padding-left: 25px;
+ }
